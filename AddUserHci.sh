@@ -66,7 +66,7 @@ export PWNOVA2=$(oculta_senha "     - Redigite a NOVA senha:			 ")
 if [ "${PWNOVA}" != "${PWNOVA2}" ]
 then
     echo " "
-    echo "   As senhas NOVAS digitadas nao estao identicas. Cancelando..."
+    echo "   As senhas NOVAS digitadas nao estao iguais. Cancelando..."
     sleep 3
     return 0
 fi
